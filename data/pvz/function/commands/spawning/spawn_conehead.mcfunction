@@ -1,0 +1,2 @@
+# Random Conehead Zombie
+execute at @e[tag=spawn,limit=1,sort=random] run summon zombie ~ ~ ~ {NoAI:1b,Invulnerable:1b,Tags:["zombie","zombie_init","conehead"],IsBaby:0b,Silent:1b,Rotation:[90f,0f],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1,components:{"minecraft:trim":{pattern:"sentry",material:"copper"},"minecraft:dyed_color":16351261}}],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f]}

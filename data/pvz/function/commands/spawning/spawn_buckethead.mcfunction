@@ -1,0 +1,2 @@
+# Random Buckethead Zombie
+execute at @e[tag=spawn,limit=1,sort=random] run summon zombie ~ ~ ~ {NoAI:1b,Invulnerable:1b,Tags:["zombie","zombie_init","buckethead"],IsBaby:0b,Silent:1b,Rotation:[90f,0f],ArmorItems:[{},{},{},{id:"minecraft:iron_helmet",Count:1}], ArmorDropChances:[0.0f,0.0f,0.0f,0.0f]}
